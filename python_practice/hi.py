@@ -1,7 +1,6 @@
-#ind = int(input("Enter a value: "))
-# if ind > 0:
-#       print(x)
-# else:
-#       print("not primary value")
-inp = input("Enter a value: ")
-print(inp)
+
+for x in range(-2, -100):
+       if x > 0:
+              print("+ve numbers: ", x)
+       else:
+              print("-ve numbers: ")

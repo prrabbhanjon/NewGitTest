@@ -1,0 +1,14 @@
+x = input("Enter a string: ")
+ctr = c =n = s = 0
+for i in x:
+    if i in "aAeEiIoOuU":ctr+=1
+    elif i in "BbCcDdEeFfGgHhJjKkLlMmNnNpPqQrRsStTvVwWxXyYzZ":c+=1
+    elif i in "0123456789":n+=1
+    else: s+=1
+
+print("_" * 50)
+print(f"The number of vowels are voweles's 	 : {ctr}"  )
+print(f"The number of consonants are consonent's : {c}")
+print(f"The number of  numbers 			 : {n}")
+print(f"The number of  special charecter's 	 : {s}")
+print("_" * 50)
