@@ -1,0 +1,8 @@
+while True:	
+	x = input("Enter uname: ")
+	y = input("Enter pwd: ")
+	if x=="technosoft" and y=="redhat":
+   	   print("succesfully logged")
+	   break
+	else:
+   	   print("invalid uname and pwd")
