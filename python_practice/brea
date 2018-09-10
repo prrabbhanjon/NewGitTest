@@ -1,0 +1,5 @@
+mystring = 'prabhanjan'
+for letter in mystring:
+   if letter == 'n':
+     break
+   print(letter,end=' ')
